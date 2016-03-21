@@ -33,3 +33,4 @@ Installing new Cordova (blank layout) Project Steps
 6) Build the project: ionic build android
 
 
+tes
