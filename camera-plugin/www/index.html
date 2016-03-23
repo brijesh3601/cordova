@@ -18,6 +18,8 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    
     <!-- your app's js -->
     <script src="js/app.js"></script>
   </head>
@@ -35,7 +37,7 @@
           </div>
 
           <div class="padding">
-            <button ng-click="takeSnap()" class="button  button-block button-calm">Take Snap</button>
+            <button ng-click="takePicture()" class="button  button-block button-calm">Take Snap</button>
           </div>
         </div>
       </ion-content>
